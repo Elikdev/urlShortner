@@ -1,0 +1,23 @@
+{
+	"name": "urlShortner",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "node index.js",
+		"devStart": "nodemon index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"config": "^3.2.5",
+		"express": "^4.17.1",
+		"mongoose": "^5.8.9",
+		"shortid": "^2.2.15",
+		"valid-url": "^1.0.9"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
